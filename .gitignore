@@ -1,0 +1,40 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local data, model weights, uploads, and generated reports
+/dataset/
+/models/
+/img_for_prediction/
+/img_for_analysis/
+/results/
+/output/
+/tmp/
+/structure.txt
+*.pth
+*.pt
+*.onnx
+*.sqlite3*
+*.log
+
+# Credentials and local tooling
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
